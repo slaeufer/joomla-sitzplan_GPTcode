@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" version="5.0">
+    <name>COM_SITZPLAN</name>
+    <creationDate>2026-02</creationDate>
+    <author>GPT-5.2-Codex</author>
+    <version>1.0.0</version>
+    <description>COM_SITZPLAN_XML_DESCRIPTION</description>
+    <namespace path="src">Joomla\Component\Sitzplan</namespace>
+
+    <administration>
+        <menu>COM_SITZPLAN</menu>
+        <files folder="administrator/components/com_sitzplan">
+            <folder>services</folder>
+            <folder>src</folder>
+        </files>
+    </administration>
+
+    <site>
+        <files folder="components/com_sitzplan">
+            <filename>sitzplan.php</filename>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </site>
+
+    <media destination="com_sitzplan" folder="media/com_sitzplan">
+        <folder>css</folder>
+        <folder>js</folder>
+    </media>
+
+    <languages>
+        <language tag="de-DE">language/de-DE/com_sitzplan.ini</language>
+        <language tag="de-DE">language/de-DE/com_sitzplan.sys.ini</language>
+        <language tag="en-GB">language/en-GB/com_sitzplan.ini</language>
+        <language tag="en-GB">language/en-GB/com_sitzplan.sys.ini</language>
+    </languages>
+</extension>
